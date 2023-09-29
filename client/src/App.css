@@ -1,0 +1,323 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* .pro{
+  box-sizing :border-box;
+color : rgb(49, 49, 51);
+direction : ltr;
+display : flex;
+flex-direction: row;
+flex-basis :auto;
+flex-grow: 0;
+flex-shrink: 1;
+flex-wrap :wrap;
+margin-left: 0px;
+margin-right :0px;
+max-width :1184px;
+padding-bottom: 4px;
+padding-left :4px;
+padding-right :4px;
+padding-top :4px;
+text-size-adjust: 100%;
+width: 872px;
+} */
+
+/* .proList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap :wrap;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  
+} */
+
+.proCrad{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-width: 100px;
+}
+
+
+
+.proH3{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top:10px 
+  ;
+}
+.proList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+  margin: 50px 0;
+}
+
+.proContent{
+  width: 90%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s;
+  background: #a7dddd;
+}
+
+/* .proContent :hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}  */
+
+.proImg{
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.proP{
+  text-align: center;
+  color: #282c34;
+  padding-top: 0 8px;
+}
+
+.proH6{
+  font-size:26px;
+  text-align: center;
+  color: #282c34;
+  margin: 0;
+}
+ 
+.IMG{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.proCon{
+  width: 90%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s;
+  background: #a7dddd;
+}
+
+.bu{
+  text-align: center;
+  font-size: 24px;
+  color:teal;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* .marList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:center;
+  align-items: center;
+  margin: 50px 0;
+} */
+
+/* .marCrad{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-width: 100px;
+} */
+
+/* .marImg{
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+} */
+
+/* .marContent{
+  width: 90%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s;
+  background: #a7dddd;
+} */
+
+.marH{
+  text-align: center;
+  color: #282c34;
+  margin: 0;
+}
+
+/* .marCon{
+  width: 90%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s;
+  background: #eef1f1;
+} */
+
+.cardProfilLayout{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardProfilButt{
+  
+  display: flex;
+  width: 34%;
+  justify-content: space-around;
+}
+
+.centerCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.centerproprop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.imgProP{
+  border: 1px solid black;
+  width: 112px;
+  /* border-radius: 50%; */
+  width: 238px;
+  margin-right: 17px;
+      
+}
+.imgProo{
+  border: 1px solid black;
+  width: 112px;
+  /* border-radius: 50%; */
+  width: 172px;
+  height: 107px;
+  width: 172px;
+}
+.imgPro{
+  border: 1px solid black;
+  width: 112px;
+  /* border-radius: 50%; */
+  width: 172px;
+  height: 107px;
+  width: 172px;
+
+}
+
+.profilInfo{
+  display: flex;
+  justify-content: space-around;
+  width: 582px;
+}
+
+.centerProfil{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttCardUser{
+  margin-top: 10px;
+  width: 223px;
+}
+
+.buttCom{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.count{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.buttComm{
+  display: flex;
+  justify-content: flex-end;
+}
+

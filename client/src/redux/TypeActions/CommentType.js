@@ -1,0 +1,2 @@
+export const GETCOMMENTS = 'GETCOMMENTS'
+export const GETONECOMMENT = 'GETONECOMMENT'

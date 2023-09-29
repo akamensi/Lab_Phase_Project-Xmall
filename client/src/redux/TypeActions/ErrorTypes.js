@@ -1,0 +1,2 @@
+export const HANDELERROR = 'HANDELERROR'
+export const REMOVEERROR = 'REMOVEERROR'
